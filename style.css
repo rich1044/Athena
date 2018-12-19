@@ -65,6 +65,6 @@ border-bottom: 2.5px solid #132238;
 p.feed-item-desc{
   font-family: 'Open Sans', sans-serif;
   text-align: justify;
-  border-bottom: 1px solid #132238;
+  border-bottom: 1px dotted #132238;
   padding-bottom: 25px;
 }
