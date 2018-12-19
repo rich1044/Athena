@@ -30,8 +30,10 @@ cursor: move;
 z-index: 10;
 color: #fff;
 color: #132238;
-font-size: 30px;
+font-size: 35px;
 font-family: 'Raleway', sans-serif;
+font-weight: bold;
+border-bottom: 2.5px solid #132238;
 }
 
 /*FOR DAT GOOD GOOD SCROLL BAR BOI*/
@@ -60,7 +62,9 @@ font-family: 'Raleway', sans-serif;
   font-family: 'Raleway', sans-serif;
 }
 
-.feed-item-desc{
+p.feed-item-desc{
   font-family: 'Open Sans', sans-serif;
   text-align: justify;
+  border-bottom: 1px solid #132238;
+  padding-bottom: 25px;
 }
