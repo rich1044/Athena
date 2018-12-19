@@ -23,17 +23,29 @@ a{
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
   background-color: #ebf0f6;
 
+  left:37%;
+  top:20%;
+
 }
+
 #rssFeedheader{
-padding: 10px;
-cursor: move;
-z-index: 10;
-color: #fff;
-color: #132238;
-font-size: 35px;
-font-family: 'Raleway', sans-serif;
-font-weight: bold;
-border-bottom: 2.5px solid #132238;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  color: #fff;
+  color: #132238;
+  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  border-bottom: 2.5px solid #132238;
+}
+
+#datWeatherFam{
+  height: 100px;
+  width: 150px;
+  position:absolute;
+  top:0;
+  right:0;
 }
 
 /*FOR DAT GOOD GOOD SCROLL BAR BOI*/
