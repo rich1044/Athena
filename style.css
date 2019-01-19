@@ -23,9 +23,10 @@ a{
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
   background-color: #ebf0f6;
 
-  left:37%;
-  top:20%;
+  left:1%;
+  top:2%;
 
+  display: none;
 }
 
 #rssFeedheader{
@@ -98,4 +99,24 @@ p.feed-item-desc{
 }
 .control:hover{
   z-index: 10;
+}
+
+.control #news{
+  height: 48px;
+  width: 48px;
+
+  left: 46%;
+  bottom: 70%;
+  position: absolute;
+
+  display: ;
+}
+
+.control #nyt{
+  height: 48px;
+  width: 100px;
+  left: 10%;
+  bottom: 70%;
+  position: absolute;
+  display: none;
 }

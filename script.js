@@ -1,3 +1,33 @@
+
+
+$("#news").click(function(){
+  console.log("test");
+  $("#news").css({
+      "display":"none"
+  })
+  $("#nyt").css({
+    "display": "inline"
+  })
+});
+
+var click = false;
+$("#nyt").click(function(){
+  if(click == false){
+    $("#rssFeed").css({
+        "display": "inline"
+    })
+    click = true;
+
+  }else{
+    $("#rssFeed").css({
+      "display":"none"
+    })
+    click = false;
+  }
+});
+
+
+/*--------------------------------------------------------------------------*/
 // Make the DIV element draggable:
 dragElement(document.getElementById("rssFeed"));
 
@@ -44,7 +74,7 @@ function dragElement(elmnt) {
   }
 }
 
-/*------------------------------------------------------------*/
+/*----------------------control button--------------------------------------*/
 $(document).ready(function(){
   $(".control").hover(function(){
     $(".control").animate({
