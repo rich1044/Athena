@@ -43,3 +43,21 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+
+/*------------------------------------------------------------*/
+$(document).ready(function(){
+  $(".control").hover(function(){
+    $(".control").animate({
+      bottom: '0px',
+      height: '500px',
+      width: '500px'
+    });
+  },
+  function(){
+    $(".control").animate({
+      bottom: '-350px',
+      height: '500px',
+      width: '500px',
+    });
+  });
+});
