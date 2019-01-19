@@ -101,11 +101,20 @@ p.feed-item-desc{
   z-index: 10;
 }
 
-.control #news{
+.control #home{
   height: 48px;
   width: 48px;
 
   left: 46%;
+  bottom: 85%;
+  position: absolute;
+}
+
+.control #news{
+  height: 48px;
+  width: 48px;
+
+  left: 46.5%;
   bottom: 70%;
   position: absolute;
 

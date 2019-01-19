@@ -1,7 +1,15 @@
 
+/*---------------------hiding things---------------------------*/
+$("#home").click(function(){
+  $("#news").css({
+      "display":"inline"
+  })
+  $("#nyt").css({
+    "display": "none"
+  })
+});
 
 $("#news").click(function(){
-  console.log("test");
   $("#news").css({
       "display":"none"
   })
